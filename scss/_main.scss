@@ -1,0 +1,120 @@
+/*MAIN*/
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+    &__index{
+        &__h2 h2{
+            font-family: 'Anton', sans-serif;
+            margin-top: 2rem;
+        }
+        &__h3 h3{
+            font-family: 'Anton', sans-serif;
+            margin-top: 2rem;
+        }
+        &__img{
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            & img{
+                max-width: 100%;
+                margin-top: 10px;
+            }
+        }
+    }
+    &__productos{
+        &__div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__div p{
+            font-family: 'Anton', sans-serif;
+            margin-top: 3rem;
+        }
+        &__btn{
+            padding: 10px;
+            box-shadow: 2px 2px 0px gray;
+            border-radius: 1rem;
+        }
+    }
+    &__staff__section h2{
+        font-family: 'Anton', sans-serif;
+        margin-top: 2rem;
+    }
+    &__container__div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & p{
+            font-size: larger;
+        }
+    }
+    &__contacto__div p{
+        font-family: 'Anton', sans-serif;
+        margin-top: 2rem;
+    }
+}
+/*STAFF*/
+.staff__img{
+    & img{
+    max-width: 10rem;
+    padding: 10px;
+    border-radius: 1rem;
+    }
+    &__michael{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        & img{
+        max-width: 25rem;
+        padding: 10px;
+        border-radius: 1rem;
+        }
+    }
+}
+/*PRODUCTOS*/
+.productos__papel{
+    &__btn{
+        padding: 10px;
+        box-shadow: 2px 2px 0px gray;
+        border-radius: 1rem;
+    }
+    & div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem;
+        & img{
+        max-width: 15rem;
+        }
+        & p{
+            margin-top: 3rem;
+        }
+    }
+}
+.carousel{
+    margin-top: 3rem;
+}
+.carousel-item img{
+    border-radius: 1rem;
+}
+/*CONTACTO*/
+
+.staff__img__rrhh{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    & img{
+        max-width: 15rem;
+        padding: 10px;
+    }
+}

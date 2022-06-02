@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    &__logo{
+    display: flex;
+    align-self: center;
+    }
+}
