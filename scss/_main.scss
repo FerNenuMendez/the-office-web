@@ -18,6 +18,12 @@
             font-family: 'Anton', sans-serif;
             margin-top: 2rem;
         }
+        &__frase {
+            h3{
+            font-family: 'Anton', sans-serif;
+            margin-top: 4rem;
+            }
+        }
         &__img{
             display: flex;
             align-self: center;
@@ -117,4 +123,7 @@
         max-width: 15rem;
         padding: 10px;
     }
+}
+.swal-overlay {
+    background-color: rgba(44, 54, 52, 0.45);
 }

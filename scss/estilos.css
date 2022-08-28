@@ -1,0 +1,177 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.header__logo {
+  display: flex;
+  align-self: center;
+}
+
+/*MAIN*/
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+.main__index__h2 h2 {
+  font-family: "Anton", sans-serif;
+  margin-top: 2rem;
+}
+.main__index__h3 h3 {
+  font-family: "Anton", sans-serif;
+  margin-top: 2rem;
+}
+.main__index__frase h3 {
+  font-family: "Anton", sans-serif;
+  margin-top: 4rem;
+}
+.main__index__img {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.main__index__img img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+.main__productos__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main__productos__div p {
+  font-family: "Anton", sans-serif;
+  margin-top: 3rem;
+}
+.main__productos__btn {
+  padding: 10px;
+  box-shadow: 2px 2px 0px gray;
+  border-radius: 1rem;
+}
+.main__staff__section h2 {
+  font-family: "Anton", sans-serif;
+  margin-top: 2rem;
+}
+.main__container__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__container__div p {
+  font-size: larger;
+}
+.main__contacto__div p {
+  font-family: "Anton", sans-serif;
+  margin-top: 2rem;
+}
+
+/*STAFF*/
+.staff__img img {
+  max-width: 10rem;
+  padding: 10px;
+  border-radius: 1rem;
+}
+.staff__img__michael {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.staff__img__michael img {
+  max-width: 25rem;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+/*PRODUCTOS*/
+.productos__papel__btn {
+  padding: 10px;
+  box-shadow: 2px 2px 0px gray;
+  border-radius: 1rem;
+}
+.productos__papel div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+.productos__papel div img {
+  max-width: 15rem;
+}
+.productos__papel div p {
+  margin-top: 3rem;
+}
+
+.carousel {
+  margin-top: 3rem;
+}
+
+.carousel-item img {
+  border-radius: 1rem;
+}
+
+/*CONTACTO*/
+.staff__img__rrhh {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.staff__img__rrhh img {
+  max-width: 15rem;
+  padding: 10px;
+}
+
+.swal-overlay {
+  background-color: rgba(44, 54, 52, 0.45);
+}
+
+/*FOOTER*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+.footer p {
+  font-family: "Anton", sans-serif;
+  margin-top: 2rem;
+}
+.footer h4 {
+  font-size: 1rem;
+}
+.footer__productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+
+@media (min-width: 320px) and (max-width: 539px) {
+  /*Index*/
+  .main__index__img img {
+    margin-top: 10px;
+  }
+  /*Contacto*/
+  .main__contacto iframe {
+    max-width: 20rem;
+  }
+}
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 15px;
+}/*# sourceMappingURL=estilos.css.map */
