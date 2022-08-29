@@ -7,6 +7,28 @@ const fotoOscar=document.getElementById("oscar")
 const fotoKevin=document.getElementById("kevin")
 const fotoAngela=document.getElementById("angela")
 
+// CONST MIURLDEAPI = "https://the-office.p.rapidapi.com/";
+
+
+// CONST MIFUNCION = (MIPARAMETRO) => {
+//     const options = {
+//         method: 'GET',
+//         headers: {
+//         'X-RapidAPI-Key': '574503d75dmsh0a60ed0cec6ee38p13ac27jsn315ca6abe10e',
+//         'X-RapidAPI-Host': 'the-office.p.rapidapi.com'
+//     }
+// };
+// fetch(MIURLDEAPI+MIPARAMETRO, options)
+// .then( respuesta => respuesta.json())
+// .then( data => {
+//     console.log(data)
+//     swal({
+//         title: `Actor: ${data.realname}`,
+//         text: `Temporadas: ${data.seasons}`
+//     })
+// })
+// .catch( () => console.log("Error de Personaje"))
+// }
 
 fotoMichael.onclick=()=>{
     const options = {
