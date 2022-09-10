@@ -20,6 +20,7 @@
         }
         &__frase {
             h3{
+            text-align: start;
             font-family: 'Anton', sans-serif;
             margin-top: 4rem;
             }
@@ -148,4 +149,17 @@
     padding: 10px;
     box-shadow: 4px 4px 0px gray;
     border-radius: 1rem;
+}
+.frase{
+    &__h4{
+        margin: 10px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+    }
+    &__p{
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: larger;
+    }
 }
