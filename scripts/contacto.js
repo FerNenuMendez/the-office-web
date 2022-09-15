@@ -13,7 +13,7 @@ fotoKelly.onclick=()=>{
         fetch('https://the-office.p.rapidapi.com/14', options)
         .then( respuesta => respuesta.json())
         .then( data => {
-            console.log(data)
+
             swal({
                 title: `Actor: ${data.realname}`,
                 text: `Temporadas: ${data.seasons}`
@@ -32,7 +32,7 @@ fotoToby.onclick=()=>{
         fetch('https://the-office.p.rapidapi.com/4', options)
         .then( respuesta => respuesta.json())
         .then( data => {
-            console.log(data)
+
             swal({
                 title: `Actor: ${data.realname}`,
                 text: `Temporadas: ${data.seasons}`

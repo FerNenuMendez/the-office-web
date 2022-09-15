@@ -8,7 +8,7 @@ function mezclarArray(inputArray){
 }
 
 const frase=[mezclarArray(dunder)]
-console.log(frase)
+
 
 const fraseDom=()=>{
     frase.forEach((frase)=>{

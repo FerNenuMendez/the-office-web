@@ -1,3 +1,6 @@
+let carrito=[]
+let divHTML=document.getElementById('productos')
+const btnIrCarrito=document.getElementById("btnCarrito")
 //productos
 const productos=[{
     id:"1",
@@ -35,18 +38,14 @@ const productos=[{
     price:350,
     img:"../recursos/Papel de Impresion A4.jpg"
 },]
-console.log(productos)
+
 //Carrito
-let carrito=[]
 class Producto{
     constructor(producto,precio){
     this.producto=producto;
     this.precio=precio;
     }
 }
-
-let divHTML=document.getElementById('productos')
-const btnIrCarrito=document.getElementById("btnCarrito")
 
 const irCarrito=()=>{
     if(carrito.length===0){
@@ -56,7 +55,7 @@ const irCarrito=()=>{
 irCarrito()
 
 const subirArray=(array)=>{
-    const arrayJSON=JSON.stringify(array)
+    const arrayJSON = JSON.stringify(array)
     localStorage.setItem("Carrito",arrayJSON)
 }
 
@@ -94,7 +93,6 @@ const productoEnDom=()=>{
             btnIrCarrito.onclick=()=>{
                 window.location.href='carrito.html'
             }
-            console.log(carrito)
         }
     })
     

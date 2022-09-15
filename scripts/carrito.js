@@ -4,7 +4,7 @@ let divSuma= document.getElementById("carrito__final__p")
 const bajarCarrito=()=>{
     const arrayBajadoLs=localStorage.getItem("Carrito")
     const parseoLs=JSON.parse(arrayBajadoLs)
-    console.log(parseoLs)
+
     const carritoEnDom=()=>{
         parseoLs.forEach((element) => {
         let div= document.createElement("div")
@@ -24,7 +24,7 @@ const bajarCarrito=()=>{
         parseoLs.map((element)=>{
             suma=suma+element.precio
         })
-        console.log(suma)
+
         let pSuma=document.createElement("p")
         pSuma.setAttribute("class","p__suma")
         pSuma.innerText=(`El Total de su compra es : $${suma}`)
@@ -38,6 +38,7 @@ const bajarCarrito=()=>{
                 icon:"success"
             })
             .then(() => {
+                localStorage.clear
                 window.location.href='productos.html'
             });
         }
