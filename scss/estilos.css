@@ -47,6 +47,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .main__productos__div p {
   font-family: "Anton", sans-serif;
@@ -92,15 +93,31 @@
 }
 
 /*PRODUCTOS*/
+.carrito {
+  display: none;
+  width: 3vh;
+}
+
+.productos {
+  width: 100%;
+}
+
 .productos__papel {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem;
+}
+.productos__papel__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  width: 40%;
 }
 .productos__papel__img {
-  max-width: 15rem;
+  max-width: 10rem;
 }
 .productos__papel__h4 {
   margin-top: 3rem;

@@ -1,6 +1,7 @@
 let carrito=[]
 let divHTML=document.getElementById('productos')
 const btnIrCarrito=document.getElementById("btnCarrito")
+const btnCarrito=document.getElementById("carrito")
 //productos
 const productos=[{
     id:"1",
@@ -57,12 +58,14 @@ irCarrito()
 const subirArray=(array)=>{
     const arrayJSON = JSON.stringify(array)
     localStorage.setItem("Carrito",arrayJSON)
+    localStorage.setItem("CarritoSet", 1)
+
 }
 
 const productoEnDom=()=>{
     productos.forEach((producto)=>{
         let div= document.createElement("div")
-        div.setAttribute("class","productos__papel")
+        div.setAttribute("class","productos__papel__div")
         divHTML.append(div)
         let img= document.createElement("img")
         img.setAttribute("src",producto.img)
@@ -87,6 +90,7 @@ const productoEnDom=()=>{
             const irCarrito=()=>{
                 if(carrito.length>0){
                     btnIrCarrito.style.display="flex"
+                    btnCarrito.style.display="flex"
                 }
             }
             irCarrito()

@@ -6,6 +6,8 @@ const fotoAndy=document.getElementById("andy")
 const fotoOscar=document.getElementById("oscar")
 const fotoKevin=document.getElementById("kevin")
 const fotoAngela=document.getElementById("angela")
+const buttomVentas=document.getElementById("CVentas")
+const btnCarrito=document.getElementById("carrito")
 
 
 fotoMichael.onclick=()=>{
